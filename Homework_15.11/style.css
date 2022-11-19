@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    height: 120px;
+    background-color: coral;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+p{
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+}
+nav{
+    background-color: black;
+    padding-left: 10px;
+    position: sticky;
+    top: 0;
+}
+nav a{
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px; 
+}
+main{
+    display: flex;
+}
+aside{
+    width: 30%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+}
+article{
+    width: 70%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+section{
+    padding-bottom: 30px;
+}
+footer{
+    height: 80px;
+    background-color: rgb(215, 215, 215);
+    text-align: center;
+    padding-top: 15px;
+}
+.photo{
+    background-color: rgb(210, 210, 210);
+    height: 120px;
+}
+.myphoto{
+    background-color: rgb(210, 210, 210);
+    height: 40px;
+    margin: 15px auto;
+}
