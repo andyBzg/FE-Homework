@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.large {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border: solid 1px black;
+    width: 120px;
+    height: 120px;
+    margin: 2px;
+}
+
+#largeImg {
+    width: 550px;
+    height: 400px;
+}
